@@ -1,61 +1,67 @@
-<chapter xml:id="chapter-adacemic-honesty">
+<chapter xml:id="chapter-academic-honesty">
   <title>Academic Honesty in Mathematics Courses</title>
   <section xml:id="section-general-policy">
-    <title>General Universty Policy</title>
+    <title>General University Policy</title>
     <p>
       The rules of academic honesty for students are defined by
       university policy, described in the Calendar and summarized in
       all course syllabuses. The material here does not override or
-      change anything in those policies. You, as students, must be
-      familiar with the expectations for academic honesty. This is
-      part of your responsibility as a student. 
+      change anything in those policies. As students, you must be
+      familiar with the expectations for academic honesty. 
     </p>
     <p>
       This document is specific to mathematics courses. It gives you
       some specific guidelines for mathematic work, assignments and
-      exams. It tells you the expectation that I have for my students. 
+      exams. It tells you the specific expectation that I have for my
+      students.
     </p>
     <p>
       The main point of this document is that mathematics is not
-      fundamentally different from english or psychology in it's
+      fundamentally different from English or psychology in its
       expectations of academic honesty: you still have to produce your
       own work and credit your sources. This sometimes comes as a
-      shock, since the expectation, strangely, is that matheamtics is
-      somehow quite different. 
+      shock, since many students seem to expect that mathematics
+      is very different. It isn't. The same principles
+      apply. This document gives some specifics of how to apply those
+      principles. 
     </p>
   </section>
   <section xml:id="section-assignments">
     <title>Math Assignments</title>
     <p>
-      The principles here is simple: when you had in an assignment, it
+      The principle here is simple. When you had in an assignment, it
       must be your own work: your own thoughts, your own sentences,
       your own calculations. This is the point of an assignment. We
       don't set assignment because we need to mark something; we
       set assignments to encourage you to do the active work of
-      solving mathematica problems, which is the entire point of
-      taking a mathematics course. We want each of you to actually do
-      your assignments, since that's where some of the most important
-      learning happens.
+      solving mathematical problems. We want each of you to actually
+      struggle though your assignments, since that's where some of the
+      most important learning happens.
     </p>
     <p>
       That said, working in groups on assignments is excellent and
       highly encouraged. Mathematics works very well in groups, where
       you can remind each other of ideas, correct each other's
-      mistake, help each through conceptual barriers. Groups are
+      mistakes, and help each through conceptual barriers. Groups are
       great. However, at the end of your group work, you still have to
       produce your own assignment. You should never be copying,
-      word-for-word or calculation-for-calculation, another students
-      assignments. Please work together: talk through the questions,
-      check each other work for errors, all these things. But please
-      produce your own work at the end. I have a list that summarized
-      the specifics of how this works. (This list repeats some of the
-      expectations in <xref ref="chapter-how-to-write-an-assignment" />,
-      but elaborates more on the academic honesty pieces.
+      word-for-word or calculation-for-calculation, another student's
+      assignment. Please work together: talk through the questions,
+      check each other's work for errors, all these things. But please
+      produce your own work at the end. 
+    </p>
+    <p>
+      I have produced a list that summarizes the specifics of my
+      assignment expectations for academic honesty. (This list repeats
+      some of the expectations in <xref
+      ref="chapter-how-to-write-an-assignment" />, but elaborates more
+      on the academic honesty pieces.)
     </p>
     <ul>
       <li>
         Obviously, you can't just copy another student's assignment.
-        That's cheating. Given that you are reading this, I'm assuming
+        That's cheating, regardless of whether you had permission to
+        copy. Given that you are reading this, I'm assuming
         that you are, in fact, trying to do your work honestly. 
       </li>
       <li>
@@ -73,23 +79,30 @@
         If you work with students in the class, note the names of the
         students you worked with at the end of your assignments. This
         is quite simple: just write, "On this assignments, I worked
-        with NAME, NAME and NAME". 
+        with NAME, NAME and NAME". This is appreciated since it gives
+        credit for the help your received from your group. It also
+        helps for marking; when assignments are very similar, if we
+        can see that students worked together, that similarity is
+        expected. (Identical assignments are still a problem, as
+        discussed above). 
       </li>
       <li>
         It's fine if someone else (a friend, a family member, a tutor,
-        etc) helps you with an assignment. However, it is it not fine
-        if they do the questions for you. They should help you figure
-        out how do to the problem, and then you should do the problems
-        on your own and write up your solutions on your own. 
+        etc) helps you with an assignment. However, it is not
+        acceptable if they do the questions for you. They should help
+        you figure out how do to the problem, often by working through
+        the main concepts and similar examples problems, and then you
+        should do the problems on your own and write up your solutions
+        on your own.
       </li>
       <li>
-        If you used another book, quote or reference that book just as
-        you would in an English course. You may use any citation
-        style. 
+        If you used another book (article, etc.), you must cite that
+        book just as you would in an English course. You may use any
+        citation style.
       </li>
       <li>
         I'll talk about the use of internet resources in the next
-        section, since that topic deserved its own section. 
+        section, since that topic deserves its own section. 
       </li>
     </ul>
   </section>

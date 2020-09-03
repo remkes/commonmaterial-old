@@ -117,17 +117,25 @@
         <p>
           Solve this system of equations. 
         </p>
-      </statement>
-      <solution>
-        <p>
-          Here is a technically correct but very poor answer. 
-        </p>
         <md>
           <mrow>
             x + y \amp = 1 
           </mrow>
           <mrow>
-            x \amp 1 - y 
+            x + z \amp = 0 
+          </mrow>
+          <mrow>
+            y + z \amp = 2
+          </mrow>
+        </md>
+      </statement>
+      <solution>
+        <md>
+          <mrow>
+            x + y \amp = 1 
+          </mrow>
+          <mrow>
+            x \amp = 1 - y 
           </mrow>
           <mrow>
             1 - y + z \amp = 0 
@@ -154,16 +162,13 @@
       </solution>
       <solution>
         <p>
-          Here is a annotated solution, which is much better.
-        </p>
-        <p>
           First, I'll solve for <m>x</m> in the first equation.
         </p>
         <me>
           x = 1 - y 
         </me>
         <p>
-          Then I put this expresion for <m>x</m> into the second
+          Then I put this expression for <m>x</m> into the second
           equation.
         </p>
         <me>
@@ -241,13 +246,13 @@
       </solution>
       <solution>
         <p>
-          I have been given the area, but I need to know the perimter.
+          I have been given the area, but I need to know the perimeter.
           This is a square, so the area is the square of the side
           length. Since the area is <m>9m^2</m>, the side length must
           be <m>3m</m>, since <m>3^3 = 9</m>. We have four sides, each
           with length <m>3m</m>, so the total perimeter is <m>12m</m>.
           The planks are in <m>cm</m>, so we need to write <m>12m</m>
-          as <m>1200cm</m>. Assume that the fence is built of planks
+          as <m>1200cm</m>. Assuming that the fence is built of planks
           that touch without any gaps, we can just divide the
           perimeter by the plank width.
           <me>
@@ -281,10 +286,10 @@
             x \amp = \frac{-7 \pm \sqrt{7^2 - 4(4)(23)}}{2(4)} 
           </mrow>
           <mrow>
-            x \amp = \frac{7 \pm \sqrt{417}{8} 
+            x \amp = \frac{7 \pm \sqrt{417}}{8} 
           </mrow>
           <mrow>
-            x \amp = -1.68, 3.43
+            x \amp \doteq -1.68, 3.43
           </mrow>
         </md>
       </solution>
@@ -302,26 +307,26 @@
         </md>
         <p>
           These are the exact solutions. Approximate values, by
-          calculator, are <m>x = -1.68, 3.43</m>. 
+          calculator, are <m>x \doteq -1.68, 3.43</m>. 
         </p>
         <p>
           OR
         </p>
         <p>
-          Approximate values using Wolfram Alpha: <m>x = 1.68,
+          Approximate values using Wolfram Alpha: <m>x \doteq 1.68,
           3.43</m>. 
         </p>
         <p>
           OR
         </p>
         <p>
-          Approximate values using Symbolab: <m>x = 01.68, 3.43</m>. 
+          Approximate values using Symbolab: <m>x \doteq 01.68, 3.43</m>. 
         </p>
         <p>
           OR
         </p>
         <p>
-          Approximate values using Desmo: <m>x = -1.68, 3.43</m>. 
+          Approximate values using Desmos: <m>x \doteq -1.68, 3.43</m>. 
         </p>
       </solution>
     </example>
@@ -333,42 +338,42 @@
       <statement>
         <p>
           Find the approximate values of <m>\sin (5)</m>, <m>\ln
-          (23)</m>, <m>(\sqrt{41}</m>, and <m>\frac{75}{342}</m>. 
+          (23)</m>, <m>\sqrt{41}</m>, and <m>\frac{75}{342}</m>. 
         </p>
       </statement>
       <solution>
         <md>
           <mrow>
-            \sin (5) \amp = 0.087 
+            \sin (5) \amp \doteq 0.087 
           </mrow>
           <mrow>
-            \ln (23) \amp = 3.135
+            \ln (23) \amp \doteq 3.135
           </mrow>
           <mrow>
-            \sqrt{41} \amp = 6.403 
+            \sqrt{41} \amp \doteq 6.403 
           </mrow>
           <mrow>
-            \frac{75}{342} \amp = 0.219
+            \frac{75}{342} \amp \doteq 0.219
           </mrow>
         </md>
       </solution>
       <solution>
         <p>
-          Throuhgout this assignment, use of Wolfram Alpha for
+          Throughout this assignment, use of Wolfram Alpha for
           calcaultions is indicated by (WA). 
         </p>
         <md>
           <mrow>
-            \sin (5) \amp = 0.087 \amp \amp (WA)
+            \sin (5) \amp \doteq 0.087 \amp \amp (\text{WA})
           </mrow>
           <mrow>
-            \ln (23) \amp = 3.135 \amp \amp (WA)
+            \ln (23) \amp \doteq 3.135 \amp \amp (\text{WA})
           </mrow>
           <mrow>
-            \sqrt{41} \amp = 6.403 \amp \amp (WA)
+            \sqrt{41} \amp \doteq 6.403 \amp \amp (\text{WA})
           </mrow>
           <mrow>
-            \frac{75}{342} \amp = 0.219 \amp \amp (WA)
+            \frac{75}{342} \amp \doteq 0.219 \amp \amp (\text{WA})
           </mrow>
         </md>
       </solution>
