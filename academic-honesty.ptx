@@ -117,45 +117,52 @@
     <ul>
       <li>
         First and foremost, you have to cite what you use. Any
-        websites, videos, calculation tools that you use for your
-        assignment should be cited at the end of the assignment. This
-        is the expectation that I find is the most suprising to many
+        websites, videos, calculation tools that you use for an
+        assignment should be cited at the end of the assignment. I
+        find this expectation is often surprising to many
         students, but I'm serious. Internet resources are like any
-        resources, and for academic writing, we cite our resources. We
-        do this to give credit to all those people in the world who've
-        written these resources, thus helping us do our academic work. 
+        resources and, for academic writing, we cite our resources. We
+        do this to give credit to the authors of these resource, since
+        we have benefited by their work.
       </li>
       <li>
-        These citations should be specific as reasonable. Don't say
+        These citations should be specific. Don't say
         that you used Youtube or even Khan Academy; tell me
         specifically which video you watched that helped you and give
-        me the URL. 
+        me the URL. (For work submitted by scanning written pages,
+        feel free to attach a seperate text documents with references,
+        so that you can just copy and past complicated URLs).
       </li>
       <li>
-        Online calculation tools (Wolfram Alpha, Demos, Symbolab, and
-        many others) are great. Please use them to do calculations, to
+        Online calculation tools (Wolfram Alpha, Desmos, Symbolab, and
+        many others) are great. Please use them to do calculations or to
         check your work. However, like all resources, you need to give
         credit. For calculation tools like these (and any other
         computer algebra systems), you can tell me at the start of the
         assignment that you used a calculation tool and then very
-        briefly indicated the places that it was used in the
+        briefly indicate the places that it was used in the
         assignment. If you simply double checked your work with any of
-        these tools, just say so as part of your citations. 
+        these tools, just say so as part of your citations. Even if
+        you use calculation tools, you still need to show enough work
+        and annotate your calculation to demonstrate that your
+        understand the process.
       </li>
       <li>
-        Most of the above discussion of citation has in mind static
-        sources (online texts, encylopedias, video explanations). The
-        internet also have interactive sources: various places where
-        you can ask for math help and receive responses from people to
-        your specific questions. Some of these are free and some of
-        these are payed subscription sites. I want to be very clear
+        So far, I've mosly been talking about sources that don't
+        involve interacting with other poeple (online texts,
+        encylopedias, video explanations, calculation tools). The
+        internet also has interactive sources: various places where
+        you can ask for math help and receive specific responses to 
+        your questions from people. Some of these are free and some of
+        require subscription fees. I want to be very clear
         about my expectation for these kind of sites.
       <blockquote>
-        Please do ask general questions on a math forum or help site.
+        It is perfectly fine to ask general questions on a math forum
+        or help site.
         Some like "I need help figuring out how to solve systems of
         equations" is very reasonable. If you want specific examples,
         use the activities in the course and ask people to help you
-        understand the activities. However, please DO NOT post any
+        understand the activities. However, do not post any
         assignment questions or take-home exam questions to any online
         math forum or help site. I need to draw a clear line here, so
         that it is easy for you to understand my expectations. Posting
@@ -164,51 +171,51 @@
       </blockquote>
       </li>
       <li>
-        Often when students look online for material from the course,
-        they will find similar material which differs in notations,
-        definitions, or solution methods. If you find another way of
-        doing things or use an alternative notation from what we did
-        in class, you need to explain to me what the alternative
-        notation means and/or why the alternative method works. You
-        can't assume that your reader (me or the marker) knows all the
-        possible variation of notation (of which there are many). You
-        have to be explicit about any new idea and how they relate to
-        the course material. 
+        Often when students look online for material relating to a
+        course, they will often find material which differs in
+        notations, definitions, or solution methods. If you find
+        another way of doing things or use an alternative notation
+        from what we did in class, you need to explain to me what the
+        alternative notation means and/or why the alternative method
+        works. You can't assume that your reader (me or the marker)
+        knows all the possible variation of notation (of which there
+        are many). You have to be explicit about any new ideas and how
+        they relate to the course material. 
       </li>
       <li>
         As one final specific note, Wikipedia is not an authoratative
-        source for quotationes. It is an immensely useful source and a
+        source for quotations. It is an immensely useful source and a
         great place to look for reminders and concepts. I frequently use it
         informally to help remember various pieces of mathematics. But
         you can't use it as an authority; you can't claim that
         any definition, notation or method is correct because you read
-        if on Wikipedia. 
+        it on Wikipedia. 
       </li>
     </ul>
   </section>
   <section xml:id="section-exams">
     <title>Exams</title>
     <p>
-      The term tests in this course are take-home exam, to be complete
-      over two or three exams. These are very much like assignments,
-      but they have different expectations. Unlike assignments, where
-      working together and getting help are encouraged, I expect you
-      to do the tests entirely on your own. Don't talk to your
-      classmates or anyone else about the questions: do what you can
-      with your own resources. 
+      In some courses, I assign take-home tests or exams.  These are
+      very much like assignments, but they have different
+      expectations. Unlike assignments, where working together and
+      getting help are encouraged, I expect you to do the tests
+      entirely on your own. Don't talk to your classmates or anyone
+      else about the questions: do what you can with your own
+      resources. 
     </p>
     <p>
-      This is easy is you simply don't talk about the exam until you
-      have submitted it. If you follow this clear instruction, you'll
-      be perfect. 
+      This is easy: simply don't talk about the exam until you
+      have submitted it. If you follow this clear instruction,
+      everything is great.
     </p>
     <p>
       All the discussion about online sources still apply to the
       take-home tests. You are welcome to use static courses, such as
       videos and online text (with citations, of course), to help you
       with the concepts and ideas of the course which relate to the
-      test. It is not at all acceptable to post test questions
-      anywhere online. 
+      test. It is not acceptable to post test questions anywhere
+      online.
     </p>
   </section>
 </chapter>
