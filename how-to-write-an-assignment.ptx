@@ -12,24 +12,24 @@
     <p>
       Most of this sections follows from one basic idea.
       <blockquote>
-        An assignment is a clear and professional presentation of
+        An assignment is a clear and clean presentation of
         <em>your own</em> arguments and ideas about a set of
         mathematical problems.
       </blockquote>
-      In that context, these are my expectations for assignments
+      I have made this list to elaboriate on the one basic idea.
     </p>
     <ul>
       <li>
         Your assignments should be clean, legible and well organized.
         Don't hand in work with crossed-out sections or questions out
-        of order. (This is part of what I mean by
-        <em>professional</em> in the definition above.)
+        of order. 
       </li>
       <li>
-        Don't expect to hand in the paper that your start your work
-        on. First work out your solutions in rough; then organize your
-        solutions and write up a complete, clear and well-structure
-        good copy to hand in.
+        Don't expect to hand in the paper that your start working
+        with.  First work out your solutions in rough; then organize
+        your solutions and write up a complete, clear and
+        well-structured good copy to hand in. Like all academic work,
+        good mathematics involves drafts. 
       </li>
       <li>
         Annotate your calculations and explain your work. A string of
@@ -39,15 +39,15 @@
         not just mathematical symbols.
       </li>
       <li>
-        As a starting rule-of-thump, most first and second year math
+        As a starting rule-of-thumb, most first and second year math
         assignments should be roughly 50% calculations and 50% words
         and sentences. 
       </li>
       <li>
-        In the writing you do between your calculation, hold yourself
-        to the same standards you would for any academic writing. Use
-        complete sentences and strive for clear, concise and formal
-        writing. 
+        In the writing you do between around your calculations, hold
+        yourself to the same standards you would for any academic
+        writing. Use complete sentences and strive for clear, concise
+        and formal writing. 
       </li>
       <li>
         For the vast majority of your work, you can leave your answers
@@ -62,7 +62,7 @@
         If you use any external sources, you must reference them. This
         includes online courses, videos, and online discussion boards.
         I am not particular on what reference formatting you use: use
-        any of the standard formats. (There will be more on this in
+        any of the standard formats. (There is more on this topic in
         <xref ref="chapter-academic-honesty" />). 
       </li>
       <li>
@@ -76,15 +76,14 @@
         However, you must write up your own version of the assignment
         after you have worked together to figure out a solution.
         Assignemnts from different students which have word-for-word
-        identical sentences are not acceptable. (And recall that I
-        expect assignments to have many sentences). 
+        identical sentences are not acceptable. 
       </li>
       <li>
         If you collaborated with other students in the course, please
         record who you worked with somewhere on the assignment. 
       </li>
       <li>
-        Hand in your assignment when they are due. If a health or
+        Hand in your assignments when they are due. If a health or
         emergency situation prevents you from finishing your
         assignment, let me know (by email, preferably) as early as
         possible. 
@@ -92,8 +91,8 @@
       <li>
         For assignments submitted online, submit a PDF scan of your
         assignment. Almost all mobile devices (phone, tablets) have
-        easy ways to use their built-in cameras to scan documents. Try
-        to find scanning methods that give reasonable file sizes. 
+        easy ways to use their built-in cameras to scan documents. (I
+        will post instruction on the course Moodle site as well).
       </li>
     </ul>
   </section>
@@ -109,10 +108,6 @@
       marks. 
     </p>
     <example>
-      <p>
-        This example contrasts solution with and without annotation
-        and explanation.
-      </p>
       <statement>
         <p>
           Solve this system of equations. 
@@ -124,31 +119,27 @@
         </p>
         <md>
           <mrow>
-            x + y \amp = 1 
+            x + y \amp = 1 \amp \amp \amp \amp
           </mrow>
           <mrow>
-            x \amp 1 - y 
+            x \amp 1 - y \amp \amp \amp \amp
           </mrow>
           <mrow>
-            1 - y + z \amp = 0 
+            1 - y + z \amp = 0 \amp \amp \amp \amp
           </mrow>
           <mrow>
-            y \amp = 1 + z 
+            y \amp = 1 + z \amp \amp \amp \amp
           </mrow>
           <mrow>
-            1 + z + z \amp = 2 
+            1 + z + z \amp = 2 \amp \amp \amp \amp
           </mrow>
           <mrow>
-            2z \amp = 1 
+            2z \amp = 1 \amp \amp \amp \amp
           </mrow>
           <mrow>
             z \amp = \frac{1}{2} 
-          </mrow>
-          <mrow>
-            y \amp = \frac{3}{2}
-          </mrow>
-          <mrow>
-            x \amp = \frac{-1}{2} 
+            \amp y \amp = \frac{3}{2}
+            \amp x \amp = \frac{-1}{2} 
           </mrow>
         </md>
       </solution>
@@ -157,7 +148,7 @@
           Here is a annotated solution, which is much better.
         </p>
         <p>
-          First, I'll solve for <m>x</m> in the first equation.
+          I start by solving for <m>x</m> in the first equation.
         </p>
         <me>
           x = 1 - y 
@@ -215,10 +206,6 @@
       </solution>
     </example>
     <example>
-      <p>
-        This example contrasts solution with and without annotation
-        and explanation.
-      </p>
       <statement>
         How many <m>15cm</m>-wide planks do you need to fence in a
         sqaure with area <m>9m^2</m>. 
@@ -244,17 +231,17 @@
           I have been given the area, but I need to know the perimter.
           This is a square, so the area is the square of the side
           length. Since the area is <m>9m^2</m>, the side length must
-          be <m>3m</m>, since <m>3^3 = 9</m>. We have four sides, each
+          be <m>3m</m>, since <m>3^3 = 9</m>. There are four sides, each
           with length <m>3m</m>, so the total perimeter is <m>12m</m>.
-          The planks are in <m>cm</m>, so we need to write <m>12m</m>
+          The planks are in <m>cm</m>, so I need to write <m>12m</m>
           as <m>1200cm</m>. Assume that the fence is built of planks
-          that touch without any gaps, we can just divide the
+          that touch without any gaps, I can just divide the
           perimeter by the plank width.
           <me>
             \frac{1200}{15} = 80
           </me>
-          We need 80 planks. It may not be necessary in the solution,
-          but we can notice, also, that this gives 20 planks
+          I need 80 planks. It may not be necessary in the solution,
+          but notice, also, that this gives 20 planks
           for each side, divided evenly, so we don't have to worry
           about using part of a plank for one side and part for
           another side. 
@@ -262,11 +249,6 @@
       </solution>
     </example>
     <example>
-      <p>
-        This example points out the need for clarity on exact and
-        approximate values. The second solution shows 4 ways of
-        writing this, depending on which tool is used. 
-      </p>
       <statement>
         <p>
           What are the roots of <m>4x^2 - 7x - 23 = 0 </m>?
@@ -321,7 +303,7 @@
           OR
         </p>
         <p>
-          Approximate values using Desmo: <m>x = -1.68, 3.43</m>. 
+          Approximate values using Desmos: <m>x = -1.68, 3.43</m>. 
         </p>
       </solution>
     </example>

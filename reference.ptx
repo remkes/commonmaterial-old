@@ -28,6 +28,24 @@
       </md>
     </subsection>
     <subsection>
+      <title>Binomial Theorem</title>
+      <md>
+        <mrow>
+          n! \amp = 1 \cdot 2 \cdot 3 \cdot 4 \cdot \ldots \cdot
+          (n-1) \cdot n 
+        </mrow>
+        <mrow>
+          (x+y)^n \amp = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k} 
+        </mrow>
+        <mrow>
+          \binom{n}{k} \amp = \frac{n!}{k!(n-k)!} 
+        </mrow>
+        <mrow>
+          (x-y)^n \amp = \sum_{k=0}^n (-1)^k \binom{n}{k} x^k y^{n-k}
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
       <title>Exponents</title>
       <md>
         <mrow>
@@ -81,24 +99,6 @@
       </md>
     </subsection>
     <subsection>
-      <title>Binomial Theorem</title>
-      <md>
-        <mrow>
-          n! \amp = 1 \cdot 2 \cdot 3 \cdot 4 \cdot \ldots \cdot
-          (n-1) \cdot n 
-        </mrow>
-        <mrow>
-          (x+y)^n \amp = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k} 
-        </mrow>
-        <mrow>
-          \binom{n}{k} \amp = \frac{n!}{k!(n-k)!} 
-        </mrow>
-        <mrow>
-          (x-y)^n \amp = \sum_{k=0}^n (-1)^k \binom{n}{k} x^k y^{n-k}
-        </mrow>
-      </md>
-    </subsection>
-    <subsection>
       <title>Quadratics</title>
       <p>
       If 
@@ -123,11 +123,11 @@
       <title>Trigonometric Functions</title>
       <p>
         If <m>(x,y)</m> are the coordinates of a point on the unit
-        circle, and if <m>\theta</m> is the angle for that point
+        circle and if <m>\theta</m> is the angle for that point
         (measured counterclockwise from the positive <m>x</m> axis),
-        then the basic trigonometric function act on the angle
-        <m>\theta</m> and give a coordinate or function of the
-        coordinates.
+        then the basic trigonometric function take the angle
+        <m>\theta</m> as their input and output the coordinates
+        <m>x</m> and <m>y</m> (in some combination).
       </p>
       <md>
         <mrow>
@@ -155,10 +155,11 @@
     <subsection>
       <title>Unit Circle</title>
       <p>
-        The trig functions gives the cartesian coordinates of points
-        on a unit circle, depending on the angle. A unit circle
-        diagram, presented here, gives the trig values of several
-        useful common angles. All angles here are measured in radians. 
+        A unit circle diagram, presented here, gives the trig values
+        of several commonly used angles. All angles here are measured
+        in radians. Remember, when using this diagram, that sine gives
+        the <m>y</m> coordinates and cosine gives the <m>x</m>
+        coordinate.
       </p>
       <figure xml:id="figure-unit-circle">
         <caption>Unit Circle Diagram</caption>
@@ -231,7 +232,7 @@
           \sin^2 x + \cos^2 x \amp = 1 
         </mrow>
         <mrow>
-          \tan^2 x \amp = \sec^2 x 
+          1 + \tan^2 x \amp = \sec^2 x 
         </mrow>
         <mrow>
           1 + \cot^2 x \amp = \csc^2 x
@@ -391,8 +392,8 @@
         inverse trig functions are written with an <qt>arc</qt> prefix.
         (This is strongly preferred to writing <m>\sin^{-1}(x)</m> and
         similar notations, since the superscript <m>(-1)</m> in these
-        notation is not an exponent and does not agree with normal
-        exponent notation for trig functions, such as <m>\sin^2
+        notations is not an exponent and does not agree with normal
+        exponential notation for trig functions, such as <m>\sin^2
         (x)</m>). With these restrictions, the range of the original
         function becomes the domain of the inverse function. 
       </p>
@@ -543,7 +544,7 @@
   <section xml:id="section-reference-derivatives">
     <title>Derivatives</title>
     <subsection>
-      <title>Two Important Limite</title>
+      <title>Two Important Limits</title>
       <md>
         <mrow>
           \lim_{x \rightarrow 0} \frac{\sin x}{x} \amp = \lim_{x
@@ -565,7 +566,63 @@
       </md>
     </subsection>
     <subsection>
-      <title>Basic Derivatives</title>
+      <title>Power Rule</title>
+      <md>
+        <mrow>
+          \frac{d}{dx} x^r \amp = rx^{r-1} 
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
+      <title>Linearity</title>
+      <md>
+        <mrow>
+          \frac{d}{dx} (f+g) \amp = \frac{df}{dx} + \frac{dg}{dx} 
+        </mrow>
+        <mrow>
+          \frac{d}{dx} (f-g) \amp = \frac{df}{dx} - \frac{dg}{dx}\\[1em] 
+        </mrow>
+        <mrow>
+          \frac{d}{dx} cf \amp = c\frac{df}{dx} 
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
+      <title>Product Rule</title>
+      <md>
+        <mrow>
+          \frac{d}{dx} (fg) \amp = f \frac{dg}{dx} + g \frac{df}{dx} 
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
+      <title>Quotient Rule</title>
+      <md>
+        <mrow>
+          \frac{d}{dx} \frac{f}{g} \amp = \frac{ g \frac{df}{dx} - f
+          \frac{dg}{dx}}{g^2} 
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
+      <title>Chain Rule</title>
+      <md>
+        <mrow>
+          \frac{d}{dx} f(g(x)) \amp = f^\prime(g(x)) g^\prime(x) = \left.
+          \frac{df(u)}{du} \right|_{u = g(x)} \frac{dg}{dx} 
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
+      <title>Derivatives of Inverse Functions</title>
+      <md>
+        <mrow>
+          \frac{d}{dx} f^{-1}(x) \amp = \frac{1}{f^\prime(f^{-1}(x))}
+        </mrow>
+      </md>
+    </subsection>
+    <subsection>
+      <title>Common Derivatives</title>
       <md>
         <mrow>
           \frac{d}{dx} e^x \amp = e^x  
@@ -653,62 +710,6 @@
         </mrow>
       </md>
     </subsection>
-    <subsection>
-      <title>Power Rule</title>
-      <md>
-        <mrow>
-          \frac{d}{dx} x^r \amp = rx^{r-1} 
-        </mrow>
-      </md>
-    </subsection>
-    <subsection>
-      <title>Linearity</title>
-      <md>
-        <mrow>
-          \frac{d}{dx} (f+g) \amp = \frac{df}{dx} + \frac{dg}{dx} 
-        </mrow>
-        <mrow>
-          \frac{d}{dx} (f-g) \amp = \frac{df}{dx} - \frac{dg}{dx}\\[1em] 
-        </mrow>
-        <mrow>
-          \frac{d}{dx} cf \amp = c\frac{df}{dx} 
-        </mrow>
-      </md>
-    </subsection>
-    <subsection>
-      <title>Product Rule</title>
-      <md>
-        <mrow>
-          \frac{d}{dx} (fg) \amp = f \frac{dg}{dx} + g \frac{df}{dx} 
-        </mrow>
-      </md>
-    </subsection>
-    <subsection>
-      <title>Quotient Rule</title>
-      <md>
-        <mrow>
-          \frac{d}{dx} \frac{f}{g} \amp = \frac{ g \frac{df}{dx} - f
-          \frac{dg}{dx}}{g^2} 
-        </mrow>
-      </md>
-    </subsection>
-    <subsection>
-      <title>Chain Rule</title>
-      <md>
-        <mrow>
-          \frac{d}{dx} f(g(x)) \amp = f^\prime(g(x)) g^\prime(x) = \left.
-          \frac{df(u)}{du} \right|_{u = g(x)} \frac{dg}{dx} 
-        </mrow>
-      </md>
-    </subsection>
-    <subsection>
-      <title>Derivatives of Inverse Functions</title>
-      <md>
-        <mrow>
-          \frac{d}{dx} f^{-1}(x) \amp = \frac{1}{f^\prime(f^{-1}(x))}
-        </mrow>
-      </md>
-    </subsection>
   </section>
   <section xml:id="section-reference-sums">
     <title>Sums</title>
@@ -746,13 +747,23 @@
   <section xml:id="section-reference-integrals">
     <title>Integrals</title>
     <subsection>
-      <title>Basic Integration Rules</title>
+      <title>Integration Rules</title>
       <md>
         <mrow>
           \int_a^b f(x) dx \amp = - \int_b^a f(x) dx 
         </mrow>
         <mrow>
           \int_a^b cdx \amp = c(b-a) 
+        </mrow>
+        <mrow>
+          \int_a^a f(x) dx \amp = 0 
+        </mrow>
+        <mrow>
+          \int_a^b f(x) dx + \int_b^c f(x) dx \amp = \int_a^c f(x) dx 
+        </mrow>
+        <mrow>
+          f(x) \leq g(x) \amp \implies \int_a^b f(x) dx \leq \int_a^b
+          g(x) dx 
         </mrow>
         <mrow>
           \int_a^b f(x) + g(x) dx \amp = \int_a^b f(x) dx + \int_a^b
@@ -765,20 +776,31 @@
         <mrow>
           \int_a^b cf(x) dx \amp = c \int_a^b f(x) dx 
         </mrow>
+      </md>
+      <p>
+        The last three of these rules state that the definite integral
+        is linear. The indefnite integral is also linear. 
+      </p>
+      <md>
         <mrow>
-          \int_a^a f(x) dx \amp = 0 
+          \int f(x) + g(x) dx \amp = \int f(x) dx + \int g(x) dx 
         </mrow>
         <mrow>
-          \int_a^b f(x) dx + \int_b^c f(x) dx \amp = \int_a^c f(x) dx 
+          \int f(x) - g(x) dx \amp = \int f(x) dx - \int g(x) dx 
         </mrow>
         <mrow>
-          f(x) \leq g(x) \amp \implies \int_a^b f(x) dx \leq \int_a^b
-          g(x) dx 
+          \int cf(x) dx \amp = c \int f(x) dx 
         </mrow>
       </md>
     </subsection>
     <subsection>
       <title>Fundamental Theorem of Calculus</title>
+      <p>
+        The basic idea of the fundamental theorem is that derivatives
+        and integrals are inverse processes. These equations here are
+        three expressions of that idea, each useful in its own
+        context.
+      </p>
       <md>
         <mrow>
           \frac{d}{dx} \int_a^x g(t) dt \amp = g(x) 
@@ -805,22 +827,23 @@
       <title>Trigonometric Substitutions</title>
       <md>
         <mrow>
-          \text{Substitution} \amp \text{Identity} \amp
-          \text{Domain} 
+          \amp \text{Expression} \amp \amp \text{Substitution} \amp
+          \amp \text{Identity} \amp \amp \text{Domain} 
         </mrow>
         <mrow>
-          \sqrt{a^2-x^2} \amp x = a \sin \theta \amp \sqrt{a^2 - x^2}
-          = a \cos \theta \amp \frac{-\pi}{2} \leq \theta \leq
+          \amp \sqrt{a^2-x^2} \amp \amp x = a sin \theta \amp \amp
+          \sqrt{a^2 - x^2} = a \cos \theta \amp \amp \frac{-\pi}{2}
+          \leq \theta \leq \frac{\pi}{2} 
+        </mrow>
+        <mrow>
+          \amp \sqrt{a^2+x^2} \amp \amp x = a \tan \theta \amp \amp
+          \sqrt{a^2 + x^2} = a \sec \theta \amp \amp \frac{-\pi}{2}
+          \lt \theta \lt \frac{\pi}{2} 
+        </mrow>
+        <mrow>
+          \amp \sqrt{x^2-a^2} \amp \amp x = a \sec \theta \amp \amp
+          \sqrt{x^2 - a^2} = a \tan \theta \amp \amp 0 \leq \theta \lt
           \frac{\pi}{2} 
-        </mrow>
-        <mrow>
-          \sqrt{a^2+x^2} \amp x = a \tan \theta \amp \sqrt{a^2 + x^2}
-          = a \sec \theta \amp \frac{-\pi}{2} \lt \theta \lt
-          \frac{\pi}{2} 
-        </mrow>
-        <mrow>
-          \sqrt{x^2-a^2} \amp x = a \sec \theta \amp \sqrt{x^2 - a^2}
-          = a \tan \theta \amp 0 \leq \theta \lt \frac{\pi}{2} 
         </mrow>
       </md>
     </subsection>
