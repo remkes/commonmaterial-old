@@ -11,22 +11,25 @@
     </p>
     <p>
       This document is specific to mathematics courses. It gives you
-      some specific guidelines for mathematical work, assignments and
-      exams. 
+      some specific guidelines for mathematic work, assignments and
+      exams. It tells you the specific expectation that I have for my
+      students.
     </p>
     <p>
       The main point of this document is that mathematics is not
-      fundamentally different from English or psychology in it's
+      fundamentally different from English or psychology in its
       expectations of academic honesty: you still have to produce your
-      own work and credit your sources. Strangely, I find that this is
-      often surprising to students who expect mathematics to be
-      somehow different. It really isn't.
+      own work and credit your sources. This sometimes comes as a
+      shock, since many students seem to expect that mathematics
+      is very different. It isn't. The same principles
+      apply. This document gives some specifics of how to apply those
+      principles. 
     </p>
   </section>
   <section xml:id="section-assignments">
     <title>Math Assignments</title>
     <p>
-      The principles here is simple: when you hand in an assignment, it
+      The principle here is simple. When you had in an assignment, it
       must be your own work: your own thoughts, your own sentences,
       your own calculations. This is the point of an assignment. We
       don't set assignments because we need to mark something; we
@@ -40,19 +43,26 @@
       That said, working in groups on assignments is excellent and
       highly encouraged. Mathematics works very well in groups, where
       you can remind each other of ideas, correct each other's
-      mistake, help each other through conceptual barriers. Groups are
+      mistakes, and help each through conceptual barriers. Groups are
       great. However, at the end of your group work, you still have to
       produce your own assignment. You should never be copying,
       word-for-word or calculation-for-calculation, another student's
-      assignments. I have a list that summarized the specifics of how
-      this works. (This list repeats some of the expectations in <xref
+      assignment. Please work together: talk through the questions,
+      check each other's work for errors, all these things. But please
+      produce your own work at the end. 
+    </p>
+    <p>
+      I have produced a list that summarizes the specifics of my
+      assignment expectations for academic honesty. (This list repeats
+      some of the expectations in <xref
       ref="chapter-how-to-write-an-assignment" />, but elaborates more
       on the academic honesty pieces.)
     </p>
     <ul>
       <li>
         Obviously, you can't just copy another student's assignment.
-        That's cheating. Given that you are reading this, I'm assuming
+        That's cheating, regardless of whether you had permission to
+        copy. Given that you are reading this, I'm assuming
         that you are, in fact, trying to do your work honestly. 
       </li>
       <li>
@@ -70,19 +80,26 @@
         If you work with students in the class, note the names of the
         students you worked with at the end of your assignments. This
         is quite simple: just write, "On this assignments, I worked
-        with NAME, NAME and NAME". 
+        with NAME, NAME and NAME". This is appreciated since it gives
+        credit for the help your received from your group. It also
+        helps for marking; when assignments are very similar, if we
+        can see that students worked together, that similarity is
+        expected. (Identical assignments are still a problem, as
+        discussed above). 
       </li>
       <li>
         It's fine if someone else (a friend, a family member, a tutor,
-        etc) helps you with an assignment. However, it is it not fine
-        if they do the questions for you. They should help you figure
-        out how to approach the problems, and then you should do the
-        problems on your own and write up your solutions on your own.
+        etc) helps you with an assignment. However, it is not
+        acceptable if they do the questions for you. They should help
+        you figure out how do to the problem, often by working through
+        the main concepts and similar examples problems, and then you
+        should do the problems on your own and write up your solutions
+        on your own.
       </li>
       <li>
-        If you used another book, you must cite that book just as
-        you would in an English course. You may use any citation
-        style. 
+        If you used another book (article, etc.), you must cite that
+        book just as you would in an English course. You may use any
+        citation style.
       </li>
       <li>
         I'll talk about the use of internet resources in the next
@@ -101,9 +118,9 @@
     <ul>
       <li>
         First and foremost, you have to cite what you use. Any
-        websites, videos, calculation tools that you use for your
-        assignment should be cited at the end of the assignment. This
-        is the expectation that I find is the most suprising to many
+        websites, videos, calculation tools that you use for an
+        assignment should be cited at the end of the assignment. I
+        find this expectation is often surprising to many
         students, but I'm serious. Internet resources are like any
         resources, and for academic writing, we cite our resources. We
         do this to give credit, since those who produced all these
@@ -180,16 +197,16 @@
   <section xml:id="section-exams">
     <title>Exams</title>
     <p>
-      The term tests in this course are take-home test, to be complete
-      over two or three days.  These are very much like assignments,
-      but they have different expectations. Unlike assignments, where
-      working together and getting help are encouraged, I expect you
-      to do the tests entirely on your own. Don't talk to your
-      classmates or anyone else about the questions: do what you can
-      with your own resources. 
+      In some courses, I assign take-home tests or exams.  These are
+      very much like assignments, but they have different
+      expectations. Unlike assignments, where working together and
+      getting help are encouraged, I expect you to do the tests
+      entirely on your own. Don't talk to your classmates or anyone
+      else about the questions: do what you can with your own
+      resources. 
     </p>
     <p>
-      This is easy is you simply don't talk about the exam until you
+      This is easy: simply don't talk about the exam until you
       have submitted it. If you follow this clear instruction,
       everything is great.
     </p>
@@ -198,7 +215,8 @@
       take-home tests. You are welcome to use static sources, such as
       videos and online text (with citations, of course), to help you
       with the concepts and ideas of the course which relate to the
-      test. You may not post test questions anywhere online. 
+      test. It is not acceptable to post test questions anywhere
+      online.
     </p>
   </section>
 </chapter>
