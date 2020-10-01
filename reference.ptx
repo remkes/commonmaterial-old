@@ -1206,11 +1206,11 @@
           x^n \amp \amp 1 
         </mrow>
         <mrow>
-          \amp \ln (1-x) \amp \amp \displaystyle -\sum_{n=0}^\infty
+          \amp \ln (1-x) \amp \amp \displaystyle -\sum_{n=1}^\infty
           \frac{x^n}{n} \amp \amp 1 
         </mrow>
         <mrow>
-          \amp \ln (1+x) \amp \amp \displaystyle \sum_{n=0}^\infty
+          \amp \ln (1+x) \amp \amp \displaystyle \sum_{n=1}^\infty
           (-1)^{n+1} \frac{x^n}{n} \amp \amp 1 
         </mrow>
         <mrow>
