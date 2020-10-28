@@ -569,7 +569,7 @@
       <title>Power Rule</title>
       <md>
         <mrow>
-          \frac{d}{dx} x^r \amp = rx^{r-1} 
+          \frac{d}{dx} x^r \amp = rx^{r-1} \amp \amp r \neq -1
         </mrow>
       </md>
     </subsection>
