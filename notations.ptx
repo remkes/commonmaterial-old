@@ -4,94 +4,209 @@
     This is a table of mathematical notation used in university
     courses which may be unfamiliar to some students.
   </p>
-  <md>
-    <mrow>
-      \amp \forall \amp \amp \text{For all}
-    </mrow>
-    <mrow>
-      \amp \exists \amp \amp \text{There exists}
-    </mrow>
-    <mrow>
-      \amp \implies \amp \amp \text{Implies}
-    </mrow>
-    <mrow>
-      \amp \therefore \amp \amp \text{Therefore}
-    </mrow>
-    <mrow>
-      \amp a \neq b \amp \amp a \text{ is not equal to } b
-    </mrow>
-    <mrow>
-      \amp \emptyset \amp \amp \text{The empty set}
-    </mrow>
-    <mrow>
-      \amp \{a,b,c\} \amp \amp 
-      \text{An explicit set with these three elements} 
-    </mrow>
-    <mrow>
-      \amp a \in A \amp \amp a \text{ is an element of the set } A
-    </mrow>
-    <mrow>
-      \amp A \subset B \amp \amp A \text{ is a subset of the set } B 
-    </mrow>
-    <mrow>
-      \amp \{ a \in A \big| a \text{ is something }\} \amp \amp
-      \text{All } a \in A \text{ that satisfy a property}
-    </mrow>
-    <mrow>
-      \amp A \cup B \amp \amp \text{The union of the sets } A \text{
-      and } B 
-    </mrow>
-    <mrow>
-      \amp A \cap B \amp \amp \text{The intersection of the sets } A
-      \text{ and } B
-    </mrow>
-    <mrow>
-      \amp A \setminus B \amp \amp \text{The elements of the set } A
-      \text{ which are also not in the set } B
-    </mrow>
-    <mrow>
-      \amp \NN \amp \amp \text{The natural numbers: } \{1,2,3, \ldots \} 
-    </mrow>
-    <mrow>
-      \amp \ZZ \amp \amp \text{The intergers: } \{\ldots, -2,1,0,-1,2,
-      \ldots \} 
-    </mrow>
-    <mrow>
-      \amp \QQ \amp \amp \text{The rational numbers}
-    </mrow>
-    <mrow>
-      \amp \RR \amp \amp \text{The real numbers}
-    </mrow>
-    <mrow>
-      \amp \CC \amp \amp \text{The complex numbers} 
-    </mrow>
-    <mrow>
-      \amp f: A \rightarrow B \amp \amp \text{A function from } A
-      \text{ to } B 
-    </mrow>
-    <mrow>
-      \amp f(x) \Big|_{x=a} \amp \amp 
-      \text{The evaluation of a function at a point}
-    </mrow>
-    <mrow>
-      \amp f \circ g \amp \amp \text{The composition of the functions
-      } f \text{ and } g
-    </mrow>
-    <mrow>
-      \amp (a,b) \amp \amp \text{The open interval } a \lt x \lt b
-      \subset \RR 
-    </mrow>
-    <mrow>
-      \amp [a,b] \amp \amp \text{The closed interval } a \leq x \leq b
-      \subset \RR
-    </mrow>
-    <mrow>
-      \amp (a,b] \amp \amp \text{The half-open interval } a \lt x \leq
-      b \subset \RR
-    </mrow>
-    <mrow>
-      \amp [a,b) \amp \amp \text{The half-open interval } a \leq x \lt
-      b \subset \RR
-    </mrow>
-  </md>
+  <table>
+  <tabular>
+    <row>
+      <cell>
+        <m>\forall</m>
+      </cell>
+      <cell>
+        For all
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\exists</m>
+      </cell>
+      <cell>
+        There exists
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\implies</m>
+      </cell>
+      <cell>
+        Implies
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\therefore</m>
+      </cell>
+      <cell>
+        Therefore
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>a \neq b</m>
+      </cell>
+      <cell>
+        <m>a</m> is not equal to <m>b</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\emptyset</m>
+      </cell>
+      <cell>
+        The empty set
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\{a,b,c\}</m>
+      </cell>
+      <cell>
+        An explicit set with these three elements
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>a \in A</m>
+      </cell>
+      <cell>
+        <m>a</m> is an element of the set <m>A</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>A \subset B</m>
+      </cell>
+      <cell>
+        <m>A</m> is a subset of the set <m>B</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\{ a \in A \big| a \text{ is something }\}</m>
+      </cell>
+      <cell>
+        All <m>a \in A</m> that satisfy a property
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>A \cup B</m>
+      </cell>
+      <cell>
+        The union of the sets <m>A</m> and <m>B</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>A \cap B</m>
+      </cell>
+      <cell>
+        The intersection of the sets <m>A</m> and <m>B</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>A \setminus B</m>
+      </cell>
+      <cell>
+        The elements of the set <m>A</m> which are also not in the set
+        <m>B</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\NN</m>
+      </cell>
+      <cell>
+        The natural numbers: <m>\{1,2,3, \ldots \}</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\ZZ</m>
+      </cell>
+      <cell>
+        The intergers: <m>\{\ldots, -2,1,0,-1,2, \ldots \}</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\QQ</m>
+      </cell>
+      <cell>
+        The rational numbers
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\RR</m>
+      </cell>
+      <cell>
+        The real numbers
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\CC</m>
+      </cell>
+      <cell>
+        The complex numbers 
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>f: A \rightarrow B</m>
+      </cell>
+      <cell>
+        A function from <m>A</m> to <m>B</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>f(x) \Big|_{x=a}</m>
+      </cell>
+      <cell>
+        The evaluation of a function at a point
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>f \circ g</m>
+      </cell>
+      <cell>
+        The composition of the functions <m>f</m> and <m>g</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>(a,b)</m>
+      </cell>
+      <cell>
+        The open interval <m>a \lt x \lt b \subset \RR</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>[a,b]</m>
+      </cell>
+      <cell>
+        The closed interval <m>a \leq x \leq b \subset \RR</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>(a,b]</m>
+      </cell>
+      <cell>
+        The half-open interval <m>a \lt x \leq b \subset \RR</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>[a,b)</m>
+      </cell>
+      <cell>
+        The half-open interval <m>a \leq x \lt b \subset \RR</m>
+      </cell>
+    </row>
+  </tabular>
+  </table>
 </chapter>
