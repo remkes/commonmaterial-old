@@ -1128,7 +1128,7 @@
     <subsection>
       <title>Taylor Series</title>
       <p>
-        For real numbers <m>/alpha, \ c \in \RR</m>, assume that
+        For real numbers <m>\alpha, \ c \in \RR</m>, assume that
         <m>f(x)</m> is infinitely differentiable on the domain
         <m>(\alpha - c, \alpha + c)</m>. Then <m>f</m>has a Taylor
         series centered at <m>\alpha</m>.

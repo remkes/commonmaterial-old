@@ -377,7 +377,7 @@
         <li> 
         <title>Function</title>
         <m>
-          f(x) = x^4 + x^2 - x^2 - x - 1 
+          f(x) = x^4 + x^3 - x^2 - x - 1 
         </m></li>
         <li>
         <title>Name/Type</title>
@@ -1027,7 +1027,7 @@
         <li> 
         <title>Function</title>
         <m>
-          f(x) = \coshx 
+          f(x) = \cosh x 
         </m></li>
         <li>
         <title>Name/Type</title>
