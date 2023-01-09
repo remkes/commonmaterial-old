@@ -670,7 +670,7 @@
           \frac{d}{dx} \csch x \amp = -\csch x \coth x 
         </mrow>
         <mrow>
-          \frac{d}{dx} \coth x \amp = -\csc^2 x 
+          \frac{d}{dx} \coth x \amp = -\csch^2 x 
         </mrow>
         <mrow>
           \frac{d}{dx} \arcsin x \amp = \frac{1}{\sqrt{1-x^2}} 
