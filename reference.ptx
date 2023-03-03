@@ -851,15 +851,15 @@
       <title>Integrals Used in Partial Fractions</title>
       <md>
         <mrow>
-          \int \frac{1}{x-a} dx = \ln |x-a| + C 
+          \int \frac{1}{x-a} dx = \ln |x-a| + c 
         </mrow>
         <mrow>
           \int \frac{2ax + b}{ax^2+bx + c} dx = \ln |ax^2 + bx + c| +
-          C
+          c
         </mrow>
         <mrow>
           \int \frac{1}{(x-a)^2 + b^2} dx = \frac{1}{b} \arctan \left(
-          \frac{x-a}{b} \right) + C
+          \frac{x-a}{b} \right) + c
         </mrow>
       </md>
     </subsection>
@@ -867,113 +867,128 @@
       <title>Common Indefinite Integrals</title>
       <md>
         <mrow>
-          \int x^ndx \amp = \frac{x^{n+1}}{n+1} + C 
+          \int x^ndx \amp = \frac{x^{n+1}}{n+1} + c 
         </mrow>
         <mrow>
-          \int \frac{1}{x} dx \amp = \ln |x| + C 
+          \int \frac{1}{x} dx \amp = \ln |x| + c 
         </mrow>
         <mrow>
-          \int e^x dx \amp = e^x + C 
+          \int e^x dx \amp = e^x + c 
         </mrow>
         <mrow>
-          \int a^x dx \amp = \frac{a^x}{\ln a}+ C 
+          \int a^x dx \amp = \frac{a^x}{\ln a}+ c 
         </mrow>
         <mrow>
-          \int \ln x dx \amp = x \ln x - x + C 
+          \int \ln x dx \amp = x \ln x - x + c 
         </mrow>
         <mrow>
-          \int \log_a dx \amp = x \log_a x - \frac{x}{\ln a} + C 
+          \int \log_a dx \amp = x \log_a x - \frac{x}{\ln a} + c 
         </mrow>
         <mrow>
-          \int \sin x dx \amp = -\cos x + C 
+          \int \sin x dx \amp = -\cos x + c 
         </mrow>
         <mrow>
-          \int \cos x dx \amp = \sin x + C 
+          \int \cos x dx \amp = \sin x + c 
         </mrow>
         <mrow>
-          \int \cos^2 x dx \amp = \frac{x}{2} + \frac{\sin 2x}{4} + C 
+          \int \cos^2 x dx \amp = \frac{x}{2} + \frac{\sin 2x}{4} + c 
         </mrow>
         <mrow>
-          \int \sin^2 x dx \amp = \frac{x}{2} - \frac{\sin 2x}{4} + C
+          \int \sin^2 x dx \amp = \frac{x}{2} - \frac{\sin 2x}{4} + c
         </mrow>
         <mrow>
-          \int \tan x dx \amp = \ln |\sec x| + C 
+          \int \tan x dx \amp = \ln |\sec x| + c 
         </mrow>
         <mrow>
-          \int \sec x dx \amp = \ln | \sec x + \tan x | + C 
+          \int \sec x dx \amp = \ln | \sec x + \tan x | + c 
         </mrow>
         <mrow>
-          \int \csc x dx \amp = \ln | \csc x - \cot x | + C 
+          \int \csc x dx \amp = \ln | \csc x - \cot x | + c 
         </mrow>
         <mrow>
-          \int \cot x dx \amp = \ln |\sin x| + C 
+          \int \cot x dx \amp = \ln |\sin x| + c 
         </mrow>
         <mrow>
-          \int \sec x \tan x dx \amp = \sec x + C 
+          \int \sec x \tan x dx \amp = \sec x + c 
         </mrow>
         <mrow>
-          \int \csc x \cot x dx \amp = -\csc x + C 
+          \int \csc x \cot x dx \amp = -\csc x + c 
         </mrow>
         <mrow>
-          \int \sec^2 x dx \amp = \tan x + C 
+          \int \sec^2 x dx \amp = \tan x + c 
         </mrow>
         <mrow>
-          \int \csc^2 x dx \amp = -\cot x + C 
+          \int \csc^2 x dx \amp = -\cot x + c 
         </mrow>
         <mrow>
-          \int \sinh x dx \amp = \cosh x + C 
+          \int \sinh x dx \amp = \cosh x + c 
         </mrow>
         <mrow>
-          \int \cosh x dx \amp = \sinh x + C 
+          \int \cosh x dx \amp = \sinh x + c 
         </mrow>
         <mrow>
-          \int \tanh x dx \amp = \ln \cosh x + C 
+          \int \tanh x dx \amp = \ln \cosh x + c 
         </mrow>
         <mrow>
-          \int \sech x dx \amp = \arctan | \sinh x| + C 
+          \int \sech x dx \amp = \arctan | \sinh x| + c 
         </mrow>
         <mrow>
           \int \csch x dx \amp = \ln \left| \tanh \frac{1}{2} x
-          \right| + C 
+          \right| + c 
         </mrow>
         <mrow>
-          \int \coth x dx \amp = \ln |\sinh x| + C 
+          \int \coth x dx \amp = \ln |\sinh x| + c 
         </mrow>
         <mrow>
-          \int \sech x \tanh x dx \amp = - \sech x + C 
+          \int \sech x \tanh x dx \amp = - \sech x + c 
         </mrow>
         <mrow>
-          \int \csch x \coth x dx \amp = -\csch x + C 
+          \int \csch x \coth x dx \amp = -\csch x + c 
         </mrow>
         <mrow>
-          \int \csch^2 x dx \amp = -\coth x + C 
+          \int \csch^2 x dx \amp = -\coth x + c 
         </mrow>
         <mrow>
-          \int \sech^2 x dx \amp = \tanh x + C 
+          \int \sech^2 x dx \amp = \tanh x + c 
         </mrow>
         <mrow>
-          \int \frac{1}{\sqrt{1-x^2}} dx \amp = \arcsin x + C 
+          \int \frac{1}{\sqrt{1-x^2}} dx \amp = \arcsin x + c 
         </mrow>
         <mrow>
-          \int \frac{-1}{\sqrt{1-x^2}}dx \amp = \arccos x + C
+          \int \frac{-1}{\sqrt{1-x^2}}dx \amp = \arccos x + c
         </mrow>
         <mrow>
-          \int \frac{1}{1+x^2} dx \amp = \arctan x + C 
+          \int \frac{1}{1+x^2} dx \amp = \arctan x + c 
         </mrow>
         <mrow>
-          \int \frac{-1}{1+x^2} dx \amp = \text{arccot} x + C
+          \int \frac{-1}{1+x^2} dx \amp = \text{arccot} x + c
         </mrow>
         <mrow>
-          \int \frac{1}{\sqrt{1+x^2}} dx \amp = \text{arcsinh} x + C 
+          \int \frac{1}{\sqrt{1+x^2}} dx \amp = \text{arcsinh} x + c 
         </mrow>
         <mrow>
-          \int \frac{1}{\sqrt{x^2-1}} dx \amp = \text{arccosh} x + C
+          \int \frac{1}{\sqrt{x^2-1}} dx \amp = \text{arccosh} x + c
         </mrow>
         <mrow>
-          \int \frac{1}{1-x^2} dx \amp = \text{arctanh} x + C 
+          \int \frac{1}{1-x^2} dx \amp = \text{arctanh} x + c 
         </mrow>
         <mrow>
-          \int \frac{1}{1-x^2} dx \amp = \text{arccoth} x + C
+          \int \frac{1}{1-x^2} dx \amp = \text{arccoth} x + c
+        </mrow>
+        <mrow>
+          \int \sqrt{a^2 + x^2} dx \amp = \frac{1}{2} x \sqrt{a^2 +
+          x^2} + \frac{a^2}{2} \ln \left( x + \sqrt{a^2 + x^2} \right)
+          + c
+        </mrow>
+        <mrow>
+          \int \sqrt{x^2 - a^2} dx \amp = \frac{1}{2} x \sqrt{x^2 -
+          a^2} - \frac{a^2}{2} \ln \left( x + \sqrt{x^2 - a^2} \right)
+          + c
+        </mrow>
+        <mrow>
+          \int \sqrt{a^2 - x^2} dx \amp = \frac{1}{2} x \sqrt{a^2 -
+          x^2} + \frac{a^2}{2} \arctan \left( \frac{x}{\sqrt{a^2 -
+          x^2}} \right) + c
         </mrow>
       </md>
     </subsection>
